@@ -1,13 +1,35 @@
-# README GUSTOS
+# 🎮 Arcade Chronicles
+### Plataforma de Catálogo de Videojuegos
 
-### Nombre
-Me llamo Cristo Fernano
+**Sprint 1 Review - Febrero 2026**
 
-### Gustos
-Me gusta jugar Futbol, ver series, peliculas, todo lo que tenga que ver con entretenimiento, ademas de epicidad
+---
 
+## 📋 Descripción del Proyecto
+Este repositorio contiene el código fuente para "Arcade Chronicles", una aplicación web diseñada para consultar noticias, reseñas y catálogos de videojuegos.
 
-### Lenguaje Favorito
-Mi lenguaje favorito es Python
+En este primer Sprint, nos enfocamos en establecer la arquitectura técnica y el diseño visual (Frontend) de la página principal.
 
-![This is an alt text.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/960px-Python-logo-notext.svg.png "This is a sample image.")
+## 🚀 Meta del Sprint 1
+* Configuración del entorno de desarrollo y repositorio.
+* Implementación del servidor base con **Python (Flask)**.
+* Maquetado de la estructura **HTML5** y estilos **CSS3**.
+* Diseño de la interfaz de usuario (UI) responsiva.
+
+## 👥 Equipo Scrum
+**Roles asignados para este Sprint:**
+
+* **Product Owner (P.O.):** Emmanuel Baltazar Hernández Escobar
+* **Scrum Master (S.M.):** Omar Cárdenas Rivera
+* **Development Team (S.T. - Backend & Frontend):**
+    * José Carlos Martínez Castillo
+    * Cristo Fernando Arroyo Pastenes
+
+## 🛠 Tecnologías Utilizadas
+* **Lenguaje:** Python 3.x
+* **Framework Web:** Flask
+* **Frontend:** HTML5, CSS3
+* **Control de Versiones:** Git & GitHub
+
+---
+*Proyecto universitario - 2026*
