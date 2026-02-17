@@ -1,55 +1,92 @@
 body {
-    background-color: #1a1a2e; /* Fondo oscuro */
+    background-color: #1a1a2e;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
+    text-align: center;
 }
+
 header {
     background-color: #16213e;
     padding: 20px;
     text-align: center;
     border-bottom: 3px solid #4cc9f0;
 }
+
 h1 {
-    color: #4cc9f0; /* Azul neón */
+    color: #4cc9f0;
     margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
+
 nav a {
     color: #ddd;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    font-size: 1.1em;
 }
-.container {
+
+nav a:hover {
+    color: #4cc9f0;
+}
+
+
+.contenedor_principal {
     width: 90%;
     margin: 20px auto;
+    text-align: center;
 }
-.grid {
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4cc9f0;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.rejilla_juegos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
+    justify-content: center;
 }
-.card {
+
+.tarjeta_juego {
     background-color: #0f3460;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
 }
-.card-img-placeholder {
-    background-color: #000;
-    height: 150px;
-    width: 100%;
+
+.tarjeta_juego:hover {
+    transform: translateY(-5px);
+    border: 1px solid #4cc9f0;
+}
+
+.imagen_portada {
+    border-radius: 5px;
+    border: 1px solid #4cc9f0;
+    display: block;
     margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #555;
-    border: 1px dashed #4cc9f0;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+h3 {
+    margin: 10px 0 0 0;
+    font-size: 1.1em;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
     padding: 20px;
     font-size: 0.8em;
     color: #888;
+    background-color: #16213e;
 }
